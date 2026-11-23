@@ -25,6 +25,8 @@ import string
 
 # 建立包含所有大小写字母和数字的字符池
 b = string.ascii_letters + string.digits
+---
+
 ### 3.2 循环组合字符串
 
 通过 `for` 循环根据用户输入的长度（`a`）从字符池中随机抽取字符，存入列表 `d` 中，最后拼接成完整的字符串：
@@ -35,10 +37,13 @@ for i in range(1, a+1):
     c = random.choice(b)
     d.append(c)
 e = "".join(d)
+text
+
+*(注意：复制时，要把最上面的 `### 3.2...` 一直复制到最下面的三个反引号 ` ``` ` 为止，不要漏掉包裹 Python 代码的三个反引号，GitHub 就是靠这三个反引号识别代码块并自动缩进的。)*
 
 ---
 
-### 4 部分
+### 4 的 Markdown 原文（直接复制下面的内容）
 
 ```markdown
 ## 4. 学习心得与规划
