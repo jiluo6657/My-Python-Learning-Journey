@@ -7,3 +7,6 @@
   favorite_book.py 和 hello.py 与项目无关
   random_password.py 为项目内容
 #代码说明： 
+  核心代码分为两个部分：
+  1.建立随机库
+  2.组合字符串
