@@ -16,10 +16,11 @@
 首先导入模块，并将大小写字母和数字拼接成一个字符池：
 ```python
 import random
-import string
+import string```
 
 建立包含所有大小写字母和数字的字符池
-b = string.ascii_letters + string.digits
+```b = string.ascii_letters + string.digits```
+
 
 ###3.2 循环组合字符串
 通过 for 循环根据用户输入的长度（a）从字符池中随机抽取字符，存入列表 d 中，最后拼接成完整的字符串：
@@ -28,7 +29,7 @@ d = []
 for i in range(1, a+1):
     c = random.choice(b)
     d.append(c)
-e = "".join(d)
+e = "".join(d)```
 
 ##4. 学习心得与规划
 在本次任务中，我浏览了 GitHub 上的一些 Python 初学者开源项目。我发现优秀的项目不仅代码规范，而且都有清晰的 README 文档，这让其他人（包括老师）能够快速理解作者的意图。这启发我，写好文档和写好代码同样重要。
