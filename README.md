@@ -18,7 +18,7 @@
 import random
 import string
 
-# 建立包含所有大小写字母和数字的字符池
+建立包含所有大小写字母和数字的字符池
 b = string.ascii_letters + string.digits
 
 ###3.2 循环组合字符串
